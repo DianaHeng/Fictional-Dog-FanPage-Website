@@ -16,8 +16,8 @@ body {
 .header {
   margin: -20px;
   background-color: rgba(113, 189, 255, 0.325);
-  font-size: 25px;
-  padding: 50px;
+  font-size: 20px;
+  padding: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -35,7 +35,7 @@ ul {
 
 li {
   font-family: Georgia, serif;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 /* #wrapper {
@@ -46,8 +46,8 @@ li {
 
 h1 {
   font-family: Georgia, serif;
-  font-size: 70px;
-  word-spacing: 3px;
+  font-size: 60px;
+  word-spacing: 2px;
   color: blanchedalmond;
   font-weight: 1500;
   text-decoration: none;
@@ -62,17 +62,17 @@ h1 {
 
 #mickeytext,
 #samoyedtext {
-  font-size: 85px;
+  font-size: 65px;
   color: rgb(180, 247, 246);
 }
 
 .uselessbutton {
-  margin: 70px auto;
+  margin: 20px auto;
   display: flex;
   text-align: center;
   align-items: center;
   color: rgb(0, 0, 0);
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 900;
   line-height: 18px;
   padding: 10px;
@@ -93,6 +93,7 @@ h1 {
   display: flex;
   background-color: rgba(189, 209, 244, 0.656);
   align-items: center;
+  align-content: center;
   justify-content: space-evenly;
   border-radius: 250px;
   -webkit-box-shadow: 1px 0px 22px 18px rgba(0, 0, 0, 0.49);
@@ -106,7 +107,7 @@ h1 {
 
 .container {
   position: relative;
-  margin: 0 -10px;
+  margin: 0px -10px;
 }
 
 .container::before {
@@ -127,7 +128,8 @@ h1 {
 .firstsection-leftside p {
   font-family: Georgia, serif;
   padding-left: 30px;
-  font-size: 20px;
+  font-size: 15px;
+  line-height: 18px;
 }
 
 .firstsection img {
@@ -196,7 +198,7 @@ h2 {
   text-align: center;
   justify-content: center;
   font-family: Georgia, serif;
-  font-size: 18px;
+  font-size: 15px;
   letter-spacing: -0.4px;
   word-spacing: 2px;
 }
