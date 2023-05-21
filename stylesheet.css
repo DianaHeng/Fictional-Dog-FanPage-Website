@@ -211,6 +211,10 @@ h1 {
     text-align: center;
     margin-top: auto;
   }
+  .firstsection-leftside h1#maintitle {
+    text-shadow: -4px 2.5px 1.5x rgba(112, 111, 111, 0.938);
+    -webkit-text-stroke: 1.5px black;
+  }
   .firstsection img {
     width: 400px;
     border-width: 8px;
@@ -232,6 +236,12 @@ h1 {
   #samoyedtext {
     font-size: 1.2em;
   }
+
+  .firstsection-leftside h1#maintitle {
+    text-shadow: -3px 2px 1px rgba(112, 111, 111, 0.938);
+    -webkit-text-stroke: 1px black;
+  }
+
   .firstsection img {
     width: 100%;
     border-width: 5px;
@@ -252,7 +262,7 @@ h1 {
   }
 
   .firstsection-leftside h1#maintitle {
-    font-size: 2em;
+    font-size: 2.5em;
     text-shadow: -3px 2px 1px rgba(112, 111, 111, 0.938);
     -webkit-text-stroke: 1px black;
   }
