@@ -211,7 +211,7 @@ h1 {
     text-align: center;
     margin-top: auto;
   }
-  .firstsection-leftside h1#maintitle {
+  .firstsection-leftside h1#maintitle , .secondsection h1 {
     text-shadow: -4px 2.5px 1.5x rgba(112, 111, 111, 0.938);
     -webkit-text-stroke: 1.5px black;
   }
@@ -237,9 +237,9 @@ h1 {
     font-size: 1.2em;
   }
 
-  .firstsection-leftside h1#maintitle {
+  .firstsection-leftside h1#maintitle, .secondsection h1 {
     text-shadow: -3px 2px 1px rgba(112, 111, 111, 0.938);
-    -webkit-text-stroke: 1px black;
+    -webkit-text-stroke: 1.5px black;
   }
 
   .firstsection img {
@@ -254,17 +254,18 @@ h1 {
   }
 }
 
-@media screen and (max-width: 469px) {
+@media screen and (max-width: 563px) {
   .firstsection-leftside p {
     margin: -30px 12px 0px 0px;
     text-align: center;
     justify-content: center;
   }
 
-  .firstsection-leftside h1#maintitle {
+  .firstsection-leftside h1#maintitle, .secondsection h1 {
     font-size: 2.5em;
     text-shadow: -3px 2px 1px rgba(112, 111, 111, 0.938);
-    -webkit-text-stroke: 1px black;
+    -webkit-text-stroke: 1.5px black;
+    line-height: 2.5rem;
   }
 
   .uselessbutton {
@@ -348,39 +349,43 @@ h2 {
   color: white;
   font-size: 20px;
   text-shadow: 2px 0.5px black;
-  line-height: 2;
+  /* line-height: 2; */
 }
 
 @media screen and (max-width: 700px) {
   .secondsection .card {
     width: 400px;
     height: auto;
-    margin: 8px;
+    margin: 8px -55px;
   }
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 563px) {
+
   .secondsection .card {
-    width: 300px;
+    width: auto;
     height: auto;
-    margin: 5px;
+    margin: 5px -35px;
   }
 
   .secondsection img {
     height: 250px;
     border: 8px solid white;
+    margin-top: -5px;
   }
 }
 
 @media screen and (max-width: 445px) {
   .secondsection .card {
-    width: 200px;
+    width: auto;
     height: auto;
-    margin: 5px;
+    margin: 5px -35px;
   }
   .secondsection img {
     height: 150px;
     border: 6px solid white;
+    margin-top: -5px;
+    
   }
 }
 
