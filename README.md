@@ -27,5 +27,11 @@ Flexbox is used to achieve the following:<br/>
    <li>The use of Flexbox ensures that the website maintains a visually appealing and responsive design across various devices.</li>
 </ul>
 
+<h2>Screenshot</h2>
+
+![MickeyFanpageLayout](https://github.com/DianaHeng/Mickey-Fanpage/assets/82561944/464ce1d1-9ece-4887-9aff-bee068efa116)
+
+
+
 
 
