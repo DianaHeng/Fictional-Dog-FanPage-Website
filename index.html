@@ -5,17 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mickey</title>
-    <link rel="stylesheet" href="script.css" />
+    <link rel="stylesheet" href="stylesheet.css" />
+
   </head>
   <body>
     <!-- Header -->
     <div class="header">
-      <div class="logo">LOGO</div>
-      <ul class="links">
-        <li>About</li>
-        <li>Profile</li>
-        <li>Donation</li>
-      </ul>
+      <a href="#default" class="logo">LOGO</a>
+      <div class="header-right">
+          <a href="#" class="active">Home</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+        </ul>
+    </div>
     </div>
     <!-- First Section -->
     <div id="wrapper">
@@ -40,7 +42,7 @@
             id="Mickey"
             src="images/Mickey1.jpg"
             alt="MainPic"
-            style="height: auto; width: 500px"
+            style="height: auto"
           />
         </div>
       </section>
@@ -48,7 +50,7 @@
 
       <div class="secondsection">
         <h1>Fun Facts</h1>
-        <div class="cards">
+        <section class="cards-section">
           <div class="card">
             <img src="images/sideeye.jpg" />
             <span class="caption"
@@ -101,7 +103,7 @@
               loyalty as you become the center of his world.</span
             >
           </div>
-        </div>
+        </section>
       </div>
     </div>
     <!-- Footer -->
@@ -109,5 +111,16 @@
       Copyright © MickeyFanpage <br />
       In conjunction with The Odin Project
     </div>
+<!-- 
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myNavbar");
+        if (x.className === "links") {
+          x.className += " responsive";
+        } else {
+          x.className = "links";
+        }
+      }
+      </script> -->
   </body>
 </html>
