@@ -1,5 +1,5 @@
 # <h1 align="center">Mickey Fanpage </h1>
-This is a simple website for a fanpage dedicated to Mickey, the adorable dog. The website serves as a platform to share information and showcase Mickey's cuteness. 
+This is a simple dog fanpage dedicated to Mickey the Samoyed. This website serves as a platform to share information and showcase Mickey's cuteness. This website not only emphasizes design but also places a strong emphasis on aesthetics. It incorporates a palette of light colors for visually appealing elements and features a selection of pastel colors to enhance its overall charm.
 The design of the landing page is created using HTML and CSS, and the website is responsive to ensure a great user experience on different devices.
 
 <h2>Features</h2>
