@@ -28,9 +28,16 @@ Flexbox is used to achieve the following:<br/>
 </ul>
 
 <h2>Screenshot</h2>
-
-![MickeyFanpageLayout](https://github.com/DianaHeng/Mickey-Fanpage/assets/82561944/464ce1d1-9ece-4887-9aff-bee068efa116)
-
+<ol>
+  <li>Desktop</li> </br>
+  
+  ![MickeyFanpageLayout](https://github.com/DianaHeng/Mickey-Fanpage/assets/82561944/464ce1d1-9ece-4887-9aff-bee068efa116)
+  
+  <li>Mobile</li> </br>
+  
+  ![mickey1](https://github.com/DianaHeng/Mickey-Fanpage/assets/82561944/dbee1c55-cc20-4937-83e7-2ad264163007)
+  
+</ol>
 
 
 
